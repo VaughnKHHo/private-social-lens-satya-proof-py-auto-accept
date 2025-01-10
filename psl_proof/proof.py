@@ -21,12 +21,12 @@ class Proof:
         """Generate proofs for all input files."""
         logging.info("Starting proof generation")
         self.proof_response.ownership = 1.0
-        self.proof_response.quality = 1.0
+        self.proof_response.quality = 5.0
         self.proof_response.authenticity = 1.0
-        self.proof_response.uniqueness = 1.0
+        self.proof_response.uniqueness = 5.0
 
         # Calculate overall score and validity
-        self.proof_response.score = 1.0
+        self.proof_response.score = 5.0
         self.proof_response.valid = True
 
         # Additional (public) properties to include in the proof about the data
